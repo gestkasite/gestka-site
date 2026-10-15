@@ -1,0 +1,56 @@
+GESTKA — PACOTE ATUALIZADO PARA PUBLICAÇÃO NO GITHUB PAGES
+
+CONTEÚDO
+- index.html: site institucional responsivo com cursos, serviços, apresentação, galeria e contato.
+- assets/: 21 arquivos de imagem utilizados pelo site.
+- 404.html: página para rotas não encontradas.
+- robots.txt e sitemap.xml: configuração básica de indexação.
+- .nojekyll: evita processamento automático do Jekyll.
+
+COMO PUBLICAR (NÃO ENVIE O ZIP FECHADO)
+1. Baixe este arquivo ZIP e extraia todo o conteúdo no computador.
+2. Abra o repositório https://github.com/gestkasite/gestka-site
+3. Na raiz do repositório, envie index.html, 404.html, robots.txt, sitemap.xml, .nojekyll e a pasta assets inteira.
+4. Mantenha a estrutura e os nomes exatamente como estão. O arquivo index.html e a pasta assets precisam ficar lado a lado na raiz.
+5. Faça Commit changes na branch main.
+6. Em Settings > Pages, selecione Deploy from a branch, branch main e pasta /(root), depois salve.
+7. Aguarde o deploy e abra https://gestkasite.github.io/gestka-site/
+8. Se aparecer versão antiga, pressione Ctrl+F5.
+
+ESTRUTURA ESPERADA
+gestka-site/
+  index.html
+  404.html
+  robots.txt
+  sitemap.xml
+  .nojekyll
+  assets/ (21 imagens)
+
+IMAGENS E ERROS 404
+- Não envie apenas index.html: envie também a pasta assets completa.
+- O site usa caminhos relativos como assets/curso-porteiro-controle-acesso.jpg.
+- Não renomeie a pasta nem os arquivos; maiúsculas/minúsculas fazem diferença na hospedagem.
+- Se uma imagem não abrir, teste diretamente: https://gestkasite.github.io/gestka-site/assets/curso-porteiro-controle-acesso.jpg
+- Confirme que a imagem está dentro da pasta assets na raiz do repositório, e não dentro de assets/assets.
+
+RECURSOS E LIMITES
+O site é estático e inclui navegação responsiva, links de contato, galeria de imagens, metadados básicos de compartilhamento/indexação e formulário que monta uma mensagem para o WhatsApp. O formulário NÃO armazena inscrições em banco de dados, não envia e-mail por servidor, não processa pagamentos e não oferece painel administrativo ou login. Essas funções exigem backend/serviços separados. Nunca publique chaves secretas no HTML.
+
+CHECKLIST ANTES DE DIVULGAR
+[ ] index.html está na raiz do repositório.
+[ ] A pasta assets está na raiz e contém as 21 imagens.
+[ ] GitHub Pages está configurado para main /(root).
+[ ] Página inicial abre sem erro 404.
+[ ] Imagens do banner, cursos e galeria aparecem no site publicado.
+[ ] Formulário abre o WhatsApp com os dados preenchidos para revisão.
+[ ] Testados menu e links em celular e computador.
+[ ] Telefone, e-mails, Instagram, preços, carga horária e modalidades foram confirmados.
+[ ] Textos legais e política de privacidade foram revisados conforme a operação real.
+
+CONTATOS CONFIGURADOS NO SITE
+Cursos e capacitações: gestkacurso@gmail.com
+Mapeamento de riscos e consultoria: gestorkayoioliveveira@gmail.com
+WhatsApp: (81) 99511-8178
+Instagram: https://www.instagram.com/gestorkayooliveira/
+
+IMPORTANTE: o pacote foi verificado quanto à integridade do ZIP e à existência local dos caminhos de imagens referenciados no HTML. Isso não substitui o teste visual em navegador nem confirma que o GitHub Pages já publicou o site.

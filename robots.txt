@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gestkacurso.github.io/gestkacurso-site/sitemap.xml
